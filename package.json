@@ -1,0 +1,14 @@
+{
+  "name": "react-zhihu",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "main": "index.js",
+  "author": "Yoki Yu <yokiyuqian@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
