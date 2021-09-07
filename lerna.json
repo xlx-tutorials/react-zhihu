@@ -23,7 +23,7 @@
       {
         "type": "chore",
         "hidden": false,
-        "section": "🚧 Chores"
+        "section": "🔫 Chores"
       },
       {
         "type": "docs",
@@ -38,7 +38,7 @@
       {
         "type": "refactor",
         "hidden": false,
-        "section": "♻️ Refactor"
+        "section": "💡 Refactor"
       },
       {
         "type": "perf",
@@ -49,6 +49,11 @@
         "type": "test",
         "hidden": false,
         "section": "🧪 Tests"
+      },
+      {
+        "type": "ci",
+        "hidden": false,
+        "section": "🗳️ CICD"
       }
     ],
     "issuePrefixes": ["#"],
