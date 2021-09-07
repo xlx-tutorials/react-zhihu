@@ -1,5 +1,6 @@
 {
   "name": "react-zhihu",
+  "private": true,
   "version": "1.0.0",
   "workspaces": [
     "packages/*"
@@ -7,8 +8,14 @@
   "main": "index.js",
   "author": "Yoki Yu <yokiyuqian@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "scripts": {
+    "build": "lerna run build --stream",
+    "start": "lerna run start --parallel",
+    "prepare": "husky install"
+  },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "husky": "^7.0.2",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.1.2"
   }
 }

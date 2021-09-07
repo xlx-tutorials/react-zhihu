@@ -1,10 +1,25 @@
 {
   "name": "@react-zhihu/components",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "concurrently 'yarn:build:* --watch'",
+    "build": "del-cli dist && concurrently yarn:build:*",
+    "build:types": "tsc -p ./tsconfig.types.json",
+    "build:esm": "tsc -p ./tsconfig.esm.json",
+    "build:cjs": "tsc -p ./tsconfig.cjs.json"
+  },
   "devDependencies": {
+    "@types/react": "^17.0.20",
+    "concurrently": "^6.2.1",
+    "del-cli": "^4.0.1",
     "typescript": "^4.4.2"
   }
 }
