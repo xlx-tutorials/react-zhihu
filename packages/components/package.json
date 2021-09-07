@@ -10,6 +10,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "precommit": "lint-staged",
     "start": "concurrently 'yarn:build:* --watch'",
     "build": "del-cli dist && concurrently yarn:build:*",
     "build:types": "tsc -p ./tsconfig.types.json",
