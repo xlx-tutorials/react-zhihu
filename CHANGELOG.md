@@ -1,3 +1,20 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+### [0.2.2](https://github.com/xlx-tutorials/react-zhihu/compare/v0.2.1...v0.2.2) (2021-09-07)
+
+
+### 🔫 Chores
+
+* 🔫 add git-cz ([ebf5aa8](https://github.com/xlx-tutorials/react-zhihu/commit/ebf5aa82f1eace2aca0bbb3ce0612f5767b15ff4))
+* add changelog ([802f9eb](https://github.com/xlx-tutorials/react-zhihu/commit/802f9eb99fb8e4bf018d52bd922343cb358801d6))
+* add conventional-changelog-cli for initial changelog ([9a2ef7f](https://github.com/xlx-tutorials/react-zhihu/commit/9a2ef7f4d792551b854860995aa727b1fd7e53e4))
+* add initial changelog ([9ab24fc](https://github.com/xlx-tutorials/react-zhihu/commit/9ab24fc3bd8dd8c258117c0c518ccdcb398d7bae))
+
+
+
 ## 0.0.0 (2021-09-07)
 
 * chore: add conventional-changelog-cli for initial changelog ([9a2ef7f](https://github.com/xlx-tutorials/react-zhihu/commit/9a2ef7f))
@@ -45,6 +62,3 @@
 * chore(release): publish v0.0.1 ([2f247c0](https://github.com/xlx-tutorials/react-zhihu/commit/2f247c0))
 * feat: project setup ([7d7c92c](https://github.com/xlx-tutorials/react-zhihu/commit/7d7c92c))
 * init project ([165ced7](https://github.com/xlx-tutorials/react-zhihu/commit/165ced7))
-
-
-

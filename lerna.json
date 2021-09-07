@@ -1,6 +1,8 @@
 {
-  "packages": ["packages/*"],
-  "version": "0.2.1",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.2.2",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
@@ -56,7 +58,9 @@
         "section": "🗳️ CICD"
       }
     ],
-    "issuePrefixes": ["#"],
+    "issuePrefixes": [
+      "#"
+    ],
     "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
     "compareUrlFormat": "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
     "userUrlFormat": "{{host}}/{{user}}"
