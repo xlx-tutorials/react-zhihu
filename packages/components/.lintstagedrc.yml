@@ -1,2 +1,2 @@
 "**/*.{ts,tsx}":
-  - echo components lint
+  - tsc --noEmit
