@@ -1,6 +1,8 @@
 {
-  "packages": ["packages/*"],
-  "version": "0.2.0",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.2.1",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
@@ -12,14 +14,50 @@
     "name": "conventionalcommits",
     "issueUrlFormat": "{{host}}/{{owner}}/{{repository}}/issues/{{id}}",
     "types": [
-      { "type": "feat", "section": "✨ Features" },
-      { "type": "fix", "section": "🐛 Bug Fixes" },
-      { "type": "chore", "hidden": false, "section": "🚧 Chores" },
-      { "type": "docs", "hidden": false, "section": "📝 Docs" },
-      { "type": "style", "hidden": false, "section": "💄 Styles" },
-      { "type": "refactor", "hidden": false, "section": "♻️ Refactor" },
-      { "type": "perf", "hidden": false, "section": "⚡️ Performance" },
-      { "type": "test", "hidden": false, "section": "🧪 Tests" }
-    ]
+      {
+        "type": "feat",
+        "section": "✨ Features"
+      },
+      {
+        "type": "fix",
+        "section": "🐛 Bug Fixes"
+      },
+      {
+        "type": "chore",
+        "hidden": false,
+        "section": "🚧 Chores"
+      },
+      {
+        "type": "docs",
+        "hidden": false,
+        "section": "📝 Docs"
+      },
+      {
+        "type": "style",
+        "hidden": false,
+        "section": "💄 Styles"
+      },
+      {
+        "type": "refactor",
+        "hidden": false,
+        "section": "♻️ Refactor"
+      },
+      {
+        "type": "perf",
+        "hidden": false,
+        "section": "⚡️ Performance"
+      },
+      {
+        "type": "test",
+        "hidden": false,
+        "section": "🧪 Tests"
+      }
+    ],
+    "issuePrefixes": [
+      "#"
+    ],
+    "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
+    "compareUrlFormat": "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
+    "userUrlFormat": "{{host}}/{{user}}"
   }
 }
