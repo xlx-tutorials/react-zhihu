@@ -20,6 +20,7 @@
     "new-version": "lerna version --conventional-commits"
   },
   "devDependencies": {
+    "conventional-changelog-cli": "^2.1.1",
     "conventional-changelog-conventionalcommits": "^4.6.0",
     "husky": "^7.0.2",
     "lerna": "^4.0.0",
