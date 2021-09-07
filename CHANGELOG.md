@@ -1,6 +1,7 @@
 ## 0.0.0 (2021-09-07)
 
 * chore: add conventional-changelog-cli for initial changelog ([9a2ef7f](https://github.com/xlx-tutorials/react-zhihu/commit/9a2ef7f))
+* chore: add initial changelog ([9ab24fc](https://github.com/xlx-tutorials/react-zhihu/commit/9ab24fc))
 
 
 
