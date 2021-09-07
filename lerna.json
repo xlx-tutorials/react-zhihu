@@ -1,20 +1,11 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "0.2.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
     "version": {
       "message": "chore(release): publish %s"
-    }
-  },
-  "changelog": {
-    "labels": {
-      "feature": "New Feature",
-      "bug": "Bug Fix",
-      "chore": "Chores"
     }
   }
 }
