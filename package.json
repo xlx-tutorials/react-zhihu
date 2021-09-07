@@ -9,9 +9,10 @@
   "author": "Yoki Yu <yokiyuqian@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "prepare": "husky install",
     "build": "lerna run build --stream",
     "start": "lerna run start --parallel",
-    "prepare": "husky install"
+    "new-version": "lerna version --conventional-commits"
   },
   "devDependencies": {
     "husky": "^7.0.2",
