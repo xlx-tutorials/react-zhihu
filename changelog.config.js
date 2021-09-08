@@ -16,7 +16,7 @@ module.exports = {
     'type',
     'scope',
     'subject',
-    // 'body',
+    'body',
     'breaking',
     'issues',
     'lerna'
@@ -71,11 +71,6 @@ module.exports = {
       description: 'Add, update, or pass tests',
       emoji: '🧪',
       value: 'test'
-    },
-    'BREAKING CHANGE': {
-      description: 'Breaking Changes',
-      emoji: '🚨',
-      value: 'BREAKING CHANGE'
     }
   }
 }
