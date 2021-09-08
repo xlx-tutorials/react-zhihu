@@ -15,8 +15,9 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "build": "lerna run build --stream",
+    "build": "lerna run build --stream --concurrency 1",
     "start": "lerna run start --parallel",
+    "test": "lerna run test --stream --concurrency 1",
     "new-version": "lerna version --conventional-commits",
     "commit": "git add . && git-cz"
   },

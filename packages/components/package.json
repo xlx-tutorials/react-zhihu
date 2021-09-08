@@ -15,6 +15,7 @@
     "build:types": "tsc -p ./tsconfig.types.json",
     "build:esm": "tsc -p ./tsconfig.esm.json",
     "build:cjs": "tsc -p ./tsconfig.cjs.json",
+    "test": "concurrently yarn:test:*",
     "test:typechecks": "tsc -p ./tsconfig.checks.json"
   },
   "devDependencies": {
