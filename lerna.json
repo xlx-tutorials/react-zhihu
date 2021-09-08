@@ -1,6 +1,8 @@
 {
-  "packages": ["packages/*"],
-  "version": "0.2.2",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.2.3",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
@@ -61,7 +63,9 @@
         "section": "🚨 Breaking Changes"
       }
     ],
-    "issuePrefixes": ["#"],
+    "issuePrefixes": [
+      "#"
+    ],
     "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
     "compareUrlFormat": "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
     "userUrlFormat": "{{host}}/{{user}}"

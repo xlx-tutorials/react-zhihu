@@ -1,5 +1,33 @@
 # Change Log
 
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+### [0.2.3](https://github.com/xlx-tutorials/react-zhihu/compare/v0.2.2...v0.2.3) (2021-09-08)
+
+
+### 📝 Docs
+
+* update CHANGELOG ([8c6da42](https://github.com/xlx-tutorials/react-zhihu/commit/8c6da42410260865248ca21cb24960e8683570d9))
+
+
+### 🧪 Tests
+
+* 🧪 add test configure ([4074ee3](https://github.com/xlx-tutorials/react-zhihu/commit/4074ee3347e9033952aadefa193a7440afd9ea71))
+
+
+### 🔫 Chores
+
+* 🔫 add commitlint ([5f2868e](https://github.com/xlx-tutorials/react-zhihu/commit/5f2868edb59a2d30c4fc1a266ad622cc7795b097))
+* 🔫 change config ([9ea585a](https://github.com/xlx-tutorials/react-zhihu/commit/9ea585a81b2be5bc127b27c1a5309b106e4b0529))
+* 🔫 change config ([4dd93d8](https://github.com/xlx-tutorials/react-zhihu/commit/4dd93d86094ef4a61977e001e691497d7c1ececc))
+* 🔫 change config for git-cz ([5aeb278](https://github.com/xlx-tutorials/react-zhihu/commit/5aeb278da0f4ea11e23f4ce9b1808ba0e90ef232))
+* 🔫 update commitlint ([37cbff1](https://github.com/xlx-tutorials/react-zhihu/commit/37cbff1ad01ba5652fdfbd275936c9def14c3e30))
+
+
+
+# Change Log
+
 ### [0.2.2](https://github.com/xlx-tutorials/react-zhihu/compare/v0.2.1...v0.2.2) (2021-09-07)
 
 
@@ -62,4 +90,3 @@
 * remove app comment ([a1bdeee](https://github.com/xlx-tutorials/react-zhihu/commit/a1bdeee3a92f2b74d6080530edb0d52bb16ab415))
 * remove useless script ([c13f95d](https://github.com/xlx-tutorials/react-zhihu/commit/c13f95d82ef8e9c13a4276e521d7af4b837d851a))
 * update package.json ([fe14f5c](https://github.com/xlx-tutorials/react-zhihu/commit/fe14f5c1cb56891ec93229a132fdff74120197f9))
-
