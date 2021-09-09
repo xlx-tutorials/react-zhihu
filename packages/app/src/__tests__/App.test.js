@@ -1,3 +1,6 @@
+import { screen, render } from '@testing-library/react'
+
 it('try test', () => {
-  expect(1 + 1).toBe(2)
+  render(<div>hello</div>)
+  expect(screen.getByText('hello')).toBeInTheDocument()
 })

@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "."
+    },
+    {
+      "name": "@react-zhihu/app",
+      "path": "packages/app"
+    },
+    {
+      "name": "@react-zhihu/components",
+      "path": "packages/components"
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "jest.disabledWorkspaceFolders": [".", "root"],
+    "jest.jestCommandLine": "npm run test:unit --"
+  }
+}

@@ -18,6 +18,7 @@
     "build": "lerna run build --stream --concurrency 1",
     "start": "lerna run start --parallel",
     "test": "lerna run test --stream --concurrency 1",
+    "test:unit": "echo test root 111",
     "new-version": "lerna version --conventional-commits",
     "commit": "git add . && git-cz"
   },
