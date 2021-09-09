@@ -124,7 +124,7 @@
     (a.o = function (e, r) {
       return Object.prototype.hasOwnProperty.call(e, r)
     }),
-    (a.p = '/'),
+    (a.p = 'react-zhihu/'),
     (a.oe = function (e) {
       throw (console.error(e), e)
     })
@@ -136,4 +136,4 @@
   var p = c
   t()
 })([])
-//# sourceMappingURL=runtime-main.7e6d79f3.js.map
+//# sourceMappingURL=runtime-main.9718d61b.js.map
