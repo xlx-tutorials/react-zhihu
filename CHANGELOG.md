@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.2.4 (2021-09-09)
+
+
+### 🐛 Bug Fixes
+
+* 🐛 add git config ([6811f30](https://github.com/xlx-tutorials/react-zhihu/commit/6811f30f40cd38feabaa24d4c2898717a5cbc502))
+
+
+
 ### [0.2.3](https://github.com/xlx-tutorials/react-zhihu/compare/v0.2.2...v0.2.3) (2021-09-08)
 
 
