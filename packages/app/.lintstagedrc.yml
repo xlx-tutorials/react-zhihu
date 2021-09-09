@@ -1,2 +1,2 @@
 "**/*.{js,jsx}":
-  - yarn run lint
+  - yarn test

@@ -5,9 +5,11 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
+    "test": "concurrently yarn:test:*",
     "test:unit": "craco test --watchAll=false --watch=false",
-    "eject": "react-scripts eject",
-    "lint": "eslint --ext .js,.jsx --color --fix"
+    "test:lint": "eslint --ext .js,.jsx --color --fix",
+    "test:format": "prettier **/*.{js,jsx} --write",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +49,7 @@
   "devDependencies": {
     "@craco/craco": "^5.9.0",
     "@emotion/babel-preset-css-prop": "^11.2.0",
+    "concurrently": "^6.2.1",
     "eslint": "^7.27.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
