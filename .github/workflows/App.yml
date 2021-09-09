@@ -33,7 +33,10 @@ jobs:
           yarn test
 
       - name: 💥 Release
-        run: yarn new-version --create-release github --yes
+        run: |
+          git config --global user.email "yokiyuqian@gmail.com"
+          git config --global user.name "iamyoki"
+          yarn new-version --create-release github --yes
 
       - name: 🚀 Deploy to Github Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
