@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.2.6 (2021-09-09)
+
+
+### 🔫 Chores
+
+* 🔫 edit env ([38fc7a2](https://github.com/xlx-tutorials/react-zhihu/commit/38fc7a2c4c5c3559d4bca71567ae10c9cc1365bb))
+
+
+
 ### 0.2.5 (2021-09-09)
 
 
