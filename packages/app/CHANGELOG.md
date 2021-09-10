@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.2.8 (2021-09-10)
+
+
+### 📝 Docs
+
+* 📝 add readame ([03e3afe](https://github.com/xlx-tutorials/react-zhihu/commit/03e3afe1167bde65a30f0d062e7a34dc2bb479ca))
+
+
+
 ### 0.2.7 (2021-09-10)
 
 
