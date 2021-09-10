@@ -26,7 +26,8 @@ function HomePage() {
           padding: 4px 8px;
           font-size: 14px;
         }
-      `}>
+      `}
+    >
       <RiReactjsFill
         size='8rem'
         color='royalblue'

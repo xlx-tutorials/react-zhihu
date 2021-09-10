@@ -19,7 +19,7 @@
     "test:unit": "jest",
     "test:typechecks": "tsc -p ./tsconfig.checks.json",
     "test:lint": "eslint '**/*.{ts,tsx}' --color --fix",
-    "test:format": "prettier **/*.{ts,tsx} --write"
+    "test:format": "prettier 'src/**/*.{ts,tsx}' --write"
   },
   "devDependencies": {
     "@jest/types": "^27.1.1",

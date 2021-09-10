@@ -8,7 +8,7 @@
     "test": "concurrently yarn:test:*",
     "test:unit": "craco test --watchAll=false --watch=false",
     "test:lint": "eslint --ext .js,.jsx --color --fix",
-    "test:format": "prettier **/*.{js,jsx} --write",
+    "test:format": "prettier 'src/**/*.{js,jsx}' --write",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
