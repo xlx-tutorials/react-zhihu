@@ -1,3 +1,3 @@
 module.exports = {
-  '**/*.{ts,tsx}': () => 'yarn test'
+  '**/*.{ts,tsx}': () => ['yarn test:typechecks']
 }
