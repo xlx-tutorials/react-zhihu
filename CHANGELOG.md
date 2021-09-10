@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.2.7 (2021-09-10)
+
+
+### 🐛 Bug Fixes
+
+* 🐛 prettier command ([f7b701d](https://github.com/xlx-tutorials/react-zhihu/commit/f7b701dae4cff7e36d923439208a6f1f7949ddbc))
+
+
+
 ### 0.2.6 (2021-09-09)
 
 
