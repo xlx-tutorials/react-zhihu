@@ -3,19 +3,6 @@
 
 A demonstration of Zhihu
 
-
-## Clone repository
-
-```bash
-git clone https://github.com/xlx-tutorials/react-zhihu
-```
-
-## Installation
-
-```bash
-yarn install
-```
-
 ## Run Locally
 
 Clone the [project](https://github.com/xlx-tutorials/react-zhihu)
