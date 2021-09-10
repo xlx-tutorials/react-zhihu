@@ -1,0 +1,29 @@
+name: App Site Pull Request Testing
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version:
+          - 12.x
+          - 14.x
+    steps:
+      - name: 🧹 Checkout
+        uses: actions/checkout@v2
+      - name: 💾 Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: ⚙️ Install and Build
+        run: |
+          yarn install --frozen-lockfile
+          PUBLIC_URL=/react-zhihu yarn build
+
+      - name: 🧪 Testing
+        run: yarn test
+
+      - name: 🎉 Testing Succeed!
+        run: echo "No error found, good to go."
