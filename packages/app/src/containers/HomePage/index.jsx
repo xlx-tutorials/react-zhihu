@@ -35,7 +35,6 @@ function HomePage() {
           animation: ${spinAni} 4s linear infinite;
         `}
       />
-      <h2>Hello</h2>
       <h2>Cra Template Popular</h2>
       <code>
         yarn create react-app --template <strong>popular</strong>
