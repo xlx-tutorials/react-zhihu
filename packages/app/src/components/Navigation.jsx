@@ -1,16 +1,19 @@
 import { css } from '@emotion/react'
 import { Link } from '@reach/router'
 import React from 'react'
+import { themeCSS } from 'utils/themeCSS'
 
-const navCSS = css`
-  background-color: white;
-  border-bottom: 1px solid whitesmoke;
-  min-height: 50px;
-  display: flex;
-  justify-content: center;
-  overflow-x: auto;
-  padding: 8px 0;
-`
+const navCSS = themeCSS(
+  (theme) => css`
+    background-color: ${theme.colors.background};
+    border-bottom: 1px solid ${theme.colors.black[6]};
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 8px 0;
+  `
+)
 
 const linkCSS = css`
   /* background-color: lavender; */

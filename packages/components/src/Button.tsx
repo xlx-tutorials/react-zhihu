@@ -8,10 +8,11 @@ type ButtonProps = {
 /** Button */
 export function Button({
   children,
+  onClick,
   ...props
 }: HTMLPropsAs<'button', ButtonProps>) {
   return (
-    <button type='button' className='Button' {...props}>
+    <button type='button' className='Button' onClick={onClick} {...props}>
       {children}
     </button>
   )
