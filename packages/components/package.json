@@ -21,7 +21,7 @@
     "test:lint": "eslint '**/*.{ts,tsx}' --color --fix",
     "test:format": "prettier 'src/**/*.{ts,tsx,js,jsx,mdx}' --write",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o dist-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
