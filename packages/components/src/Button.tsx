@@ -8,11 +8,25 @@ type ButtonProps = {
 /** Button */
 export function Button({
   children,
-  onClick,
+  style,
   ...props
 }: HTMLPropsAs<'button', ButtonProps>) {
   return (
-    <button type='button' className='Button' onClick={onClick} {...props}>
+    <button
+      type='button'
+      className='Button'
+      style={{
+        backgroundColor: 'royalblue',
+        color: 'white',
+        borderRadius: 20,
+        border: 'none',
+        padding: 12,
+        fontSize: 15,
+        cursor: 'pointer',
+        ...style,
+      }}
+      {...props}
+    >
       {children}
     </button>
   )
