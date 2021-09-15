@@ -14,12 +14,16 @@
   "author": "Yoki Yu <yokiyuqian@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "📦️ ------ Install Packages and Build": "",
     "prepare": "husky install",
     "build": "lerna run build --stream --concurrency 1",
+    "🚩 ------ Run in development": "",
     "start": "lerna run start --parallel",
+    "✅ ------ Testing": "",
     "test": "lerna run test --stream --concurrency 1",
     "test:unit": "echo test root 111",
     "new-version": "lerna version --conventional-commits",
+    "✨ ------ New commits": "",
     "commit": "git add . && git-cz"
   },
   "devDependencies": {
