@@ -1,5 +1,5 @@
 import { ThemeProvider } from '@emotion/react'
-import { useTheme } from 'contexts/ThemeContexts'
+import { useTheme } from '@react-zhihu/components'
 
 export function EmotionThemeProvider({ children }) {
   const { theme } = useTheme()
