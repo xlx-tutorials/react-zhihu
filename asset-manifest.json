@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/react-zhihu/static/js/main.8f6e5400.chunk.js",
-    "main.js.map": "/react-zhihu/static/js/main.8f6e5400.chunk.js.map",
-    "runtime-main.js": "/react-zhihu/static/js/runtime-main.c6edab19.js",
-    "runtime-main.js.map": "/react-zhihu/static/js/runtime-main.c6edab19.js.map",
-    "static/js/2.096cb62c.chunk.js": "/react-zhihu/static/js/2.096cb62c.chunk.js",
-    "static/js/2.096cb62c.chunk.js.map": "/react-zhihu/static/js/2.096cb62c.chunk.js.map",
-    "static/js/3.a305435a.chunk.js": "/react-zhihu/static/js/3.a305435a.chunk.js",
-    "static/js/3.a305435a.chunk.js.map": "/react-zhihu/static/js/3.a305435a.chunk.js.map",
+    "main.js": "/react-zhihu/static/js/main.a3dfd972.chunk.js",
+    "main.js.map": "/react-zhihu/static/js/main.a3dfd972.chunk.js.map",
+    "runtime-main.js": "/react-zhihu/static/js/runtime-main.2275d3a5.js",
+    "runtime-main.js.map": "/react-zhihu/static/js/runtime-main.2275d3a5.js.map",
+    "static/js/2.350e17ae.chunk.js": "/react-zhihu/static/js/2.350e17ae.chunk.js",
+    "static/js/2.350e17ae.chunk.js.map": "/react-zhihu/static/js/2.350e17ae.chunk.js.map",
+    "static/js/3.e206dcbe.chunk.js": "/react-zhihu/static/js/3.e206dcbe.chunk.js",
+    "static/js/3.e206dcbe.chunk.js.map": "/react-zhihu/static/js/3.e206dcbe.chunk.js.map",
     "index.html": "/react-zhihu/index.html",
-    "static/js/2.096cb62c.chunk.js.LICENSE.txt": "/react-zhihu/static/js/2.096cb62c.chunk.js.LICENSE.txt"
+    "static/js/2.350e17ae.chunk.js.LICENSE.txt": "/react-zhihu/static/js/2.350e17ae.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c6edab19.js",
-    "static/js/2.096cb62c.chunk.js",
-    "static/js/main.8f6e5400.chunk.js"
+    "static/js/runtime-main.2275d3a5.js",
+    "static/js/2.350e17ae.chunk.js",
+    "static/js/main.a3dfd972.chunk.js"
   ]
 }
