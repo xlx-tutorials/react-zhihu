@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.2.11 (2021-09-10)
+
+**Note:** Version bump only for package react-zhihu
+
+
+
+
+
+### 0.2.10 (2021-09-10)
+
+
+### 🗳️ CICD
+
+* 🗳️ update github action config ([b4a8a75](https://github.com/xlx-tutorials/react-zhihu/commit/b4a8a75452bdcf9eea732d269e1b80ed5213d279))
+
+
+
 ### 0.2.9 (2021-09-10)
 
 **Note:** Version bump only for package react-zhihu
