@@ -3,12 +3,16 @@
   "version": "0.2.12",
   "private": true,
   "scripts": {
+    "🚩 ------ Run in development": "",
     "start": "craco start",
+    "📦 ------ Build": "",
     "build": "craco build",
+    "✅ ------ Testing": "",
     "test": "concurrently yarn:test:*",
     "test:unit": "craco test --watchAll=false --watch=false",
     "test:lint": "eslint --ext .js,.jsx --color --fix",
     "test:format": "prettier 'src/**/*.{js,jsx}' --write",
+    "🧰 ------ Tools": "",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
