@@ -10,18 +10,18 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "concurrently 'yarn:build:* --watch'",
+    "start": "concurrently 'yarn:build:* --watch' 'yarn:start:*'",
+    "start:storybook": "start-storybook -p 6006",
     "build": "del-cli dist && concurrently yarn:build:*",
     "build:types": "tsc -p ./tsconfig.types.json",
     "build:esm": "tsc -p ./tsconfig.esm.json",
     "build:cjs": "tsc -p ./tsconfig.cjs.json",
+    "build:storybook": "build-storybook -o dist-storybook",
     "test": "concurrently yarn:test:*",
     "test:unit": "jest",
     "test:typechecks": "tsc -p ./tsconfig.checks.json",
     "test:lint": "eslint '**/*.{ts,tsx}' --color --fix",
-    "test:format": "prettier 'src/**/*.{ts,tsx,js,jsx,mdx}' --write",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -o dist-storybook"
+    "test:format": "prettier 'src/**/*.{ts,tsx,js,jsx,mdx}' --write"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
