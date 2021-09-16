@@ -87,11 +87,8 @@ export function useTheme() {
 
   const { themes, theme, setTheme } = context
 
-  console.log(undefined ?? 222)
-
   const curThemeKey =
-    Object.entries(themes).find(([key, val]) => val === theme)?.[0] || 'light'
-  // Object.entries(themes).find(([key, val]) => val === theme)?.[0] ?? 'light'
+    Object.entries(themes).find(([key, val]) => val === theme)?.[0] ?? 'light'
 
   function switchTheme(key: keyof Theme) {
     setTheme(themes[key])
