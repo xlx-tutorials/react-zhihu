@@ -4,6 +4,7 @@ import { QueryParamProvider } from 'use-query-params'
 import { EmotionThemeProvider } from './EmotionThemeProvider'
 
 export function Providers({ children }) {
+  console.log(THEME)
   return (
     <ThemeProvider
       themes={{
