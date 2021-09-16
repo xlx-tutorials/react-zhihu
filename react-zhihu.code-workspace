@@ -17,6 +17,10 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "jest.disabledWorkspaceFolders": [".", "root"],
-    "jest.jestCommandLine": "npm run test:unit --"
+    "jest.jestCommandLine": "npm run test:unit --",
+    "advancedNewFile.exclude": {
+      "packages": true
+    },
+    "advancedNewFile.showInformationMessages": true
   }
 }
