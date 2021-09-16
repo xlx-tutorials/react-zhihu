@@ -1,13 +1,12 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "0.2.15",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
     "version": {
-      "message": "💥 Release %s [skip ci]"
+      "message": "💥 Release %s [skip ci]",
+      "conventionalCommits": true
     }
   },
   "changelogPreset": {
@@ -63,9 +62,7 @@
         "section": "🚨 Breaking Changes"
       }
     ],
-    "issuePrefixes": [
-      "#"
-    ],
+    "issuePrefixes": ["#"],
     "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
     "compareUrlFormat": "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
     "userUrlFormat": "{{host}}/{{user}}"
