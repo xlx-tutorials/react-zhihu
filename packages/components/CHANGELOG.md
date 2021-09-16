@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.2.15](https://github.com/xlx-tutorials/react-zhihu/compare/v0.2.14...v0.2.15) (2021-09-16)
+
+
+### 🔫 Chores
+
+* 🔫 config vscode ([d2ec9f7](https://github.com/xlx-tutorials/react-zhihu/commit/d2ec9f780d06b209a9e8e705f4077a8ee4b16beb))
+
+
+
 ### 0.2.14 (2021-09-16)
 
 **Note:** Version bump only for package @react-zhihu/components

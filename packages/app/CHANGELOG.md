@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.2.15](https://github.com/xlx-tutorials/react-zhihu/compare/v0.2.14...v0.2.15) (2021-09-16)
+
+
+### 🔫 Chores
+
+* 🔫 edit eslint ([f450087](https://github.com/xlx-tutorials/react-zhihu/commit/f450087274d65a70cdf82330a543c4086e0c0baf))
+
+
+
 ### 0.2.14 (2021-09-16)
 
 **Note:** Version bump only for package @react-zhihu/app

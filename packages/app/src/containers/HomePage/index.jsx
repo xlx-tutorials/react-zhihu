@@ -1,4 +1,5 @@
 import { css, keyframes } from '@emotion/react'
+import { useTheme } from '@react-zhihu/components'
 import Center from 'components/Center'
 import { RiReactjsFill } from 'react-icons/ri'
 
@@ -15,12 +16,14 @@ const spinAni = keyframes`
  * HomePage
  */
 function HomePage() {
+  const { theme } = useTheme()
+
   return (
     <Center
       className='HomePage'
       css={css`
         code {
-          background-color: whitesmoke;
+          background-color: ${theme.colors.white[10]};
           color: slategray;
           border-radius: 2px;
           padding: 4px 8px;

@@ -1,5 +1,5 @@
 import React from 'react'
-import { HTMLPropsAs } from './types'
+import { HTMLPropsAs } from '../../types'
 
 type ButtonProps = {
   children?: React.ReactNode
