@@ -1,7 +1,5 @@
 import { globalHistory } from '@reach/router'
-import { DARK_THEME } from 'constants/darkTheme'
-import { THEME } from 'constants/theme'
-import { ThemeProvider } from 'contexts/ThemeContexts'
+import { DARK_THEME, THEME, ThemeProvider } from '@react-zhihu/components'
 import { QueryParamProvider } from 'use-query-params'
 import { EmotionThemeProvider } from './EmotionThemeProvider'
 
