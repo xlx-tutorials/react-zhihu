@@ -26,8 +26,8 @@ jobs:
       - name: ⚙️ Install and Build
         run: |
           yarn install --frozen-lockfile
-          PUBLIC_URL=/react-zhihu CI=false yarn build
-          yarn test
+          PUBLIC_URL=/react-zhihu CI=false yarn build-app-and-components
+          yarn test-app-and-components
 
       - name: 💥 Release
         run: |
