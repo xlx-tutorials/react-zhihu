@@ -1,3 +1,4 @@
+import { css } from '@emotion/react'
 import styled from '@emotion/styled'
 import React from 'react'
 
@@ -9,4 +10,14 @@ type ButtonProps = {
   children?: React.ReactNode
 }
 
-export const Button = styled.button<ButtonProps>``
+export function Button({ children }: ButtonProps) {
+  return (
+    <button
+      css={css`
+        color: royalblue;
+      `}
+    >
+      {children}
+    </button>
+  )
+}
