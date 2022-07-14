@@ -10,6 +10,7 @@ type ButtonProps = {
   children?: React.ReactNode
 }
 
+/** Button */
 export function Button({ children }: ButtonProps) {
   return (
     <button
