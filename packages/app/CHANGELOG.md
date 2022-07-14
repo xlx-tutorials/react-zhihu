@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.2.20 (2022-07-14)
+
+
+### 🔫 Chores
+
+* types ([cb7bf9b](https://github.com/xlx-tutorials/react-zhihu/commit/cb7bf9bd9eceffcc4a45b8aeef55f4f781235eef))
+
+
+
 ### 0.2.19 (2022-07-14)
 
 
