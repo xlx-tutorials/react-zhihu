@@ -23,7 +23,7 @@ function HomePage() {
       className='HomePage'
       css={css`
         code {
-          background-color: ${theme.colors.white[10]};
+          background-color: ${theme.colors.black[10]};
           color: slategray;
           border-radius: 2px;
           padding: 4px 8px;

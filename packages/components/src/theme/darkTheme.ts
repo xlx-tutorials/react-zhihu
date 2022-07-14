@@ -1,4 +1,4 @@
-const { PALETTE } = require('./palette')
+import { PALETTE } from '.'
 
 const colors = {
   primary: PALETTE.primary,

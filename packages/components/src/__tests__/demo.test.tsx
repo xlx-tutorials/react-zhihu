@@ -6,7 +6,7 @@ it('should equal 2', () => {
 })
 
 it('should renders correctly', () => {
-  render(<Button style={{ color: 'red' }}>Click Me</Button>)
+  render(<Button>Click Me</Button>)
 
   const element = screen.getByText(/click me/i)
   expect(element).toBeVisible()
