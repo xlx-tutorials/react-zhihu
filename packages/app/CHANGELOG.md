@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.2.19 (2022-07-14)
+
+
+### 🔫 Chores
+
+* remove another comment ([3deb8cd](https://github.com/xlx-tutorials/react-zhihu/commit/3deb8cddf1ca460eaeaf043d74a6be48561af510))
+
+
+
 ### 0.2.18 (2022-07-14)
 
 
